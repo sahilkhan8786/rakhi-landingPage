@@ -2,32 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: radial-gradient(circle, #a50078, #b22389, #be389b, #cb4bad, #d75cbf, #e55bbb, #f25bb6, #ff5bb1, #ff4e8f, #ff4b6a, #ff5443, #fa640e);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow: hidden;
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.flower {
+  animation: spin 90s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
