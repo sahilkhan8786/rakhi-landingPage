@@ -7,7 +7,7 @@ import image2 from '@/assets/2.png'
 import Button from './Button'
 export default function Hero() {
     return (
-        <div className=' bg-white/25 p-4 backdrop:blur-lg rounded-xl relative h-[800px] lg:h-[600px] mt-6 sm:mt-10  2xl:overflow-visible overflow-hidden'>
+        <div className=' bg-white/25 p-4 backdrop:blur-lg rounded-xl relative h-[700px] lg:h-[600px] mt-6 sm:mt-10   md:overflow-hidden overflow-y-scroll '>
             <h1 className='text-3xl uppercase font-semibold text-center  items-center w-full my-4 text-pink-700 cursor-pointer  sm:text-7xl sm:mt-8 flex flex-col'>
                 <span>
                     Happy
@@ -28,7 +28,7 @@ export default function Hero() {
                         <span>Gift that speaks love</span>
                     </p>
                 </div>
-                <div className='w-full flex justify-center gap-5 max-w-screen-sm mx-auto flex-wrap items-center mt-6 sm:mt-12  lg:mt-0'>
+                <div className='w-full flex justify-center gap-5 max-w-screen-sm mx-auto flex-wrap items-center mt-6 sm:mt-6  lg:mt-0'>
                     <Button
                         value={"Entertainment"}
                         link={'https://www.freelancer.in/users/l.php?url=https:%2F%2Fwww.giftanapp.com%2Fcategory%2Fentertainment&sig=fdacb7535bfc7c968927c8bd737b5ae13e813270d79a4ee5aadc320827a6c117'} />
