@@ -22,7 +22,7 @@ export default function Hero() {
                 <Image src={heroImage} alt='hero-image' width={500} className='absolute -bottom-24 z-10' />
                 <Image src={d_1} alt='hero-image' width={102} className='absolute -top-6 left-0  sm:right-0 -z-10 sm:z-10' />
                 <Image src={image1} alt="decoration" width={574} className="absolute -bottom-64 -left-20 -z-10 " />
-                <Image src={gift} alt="decoration" width={250} className="absolute top-1/2  -translate-y-1/2   md:top-[100%] md:right-0 -z-10 " />
+                <Image src={gift} alt="decoration" width={250} className="absolute top-1/2  -translate-y-1/2   md:top-[90%] md:right-0 -z-10 " />
                 <Image src={image2} alt="decoration" width={574} className="absolute -top-40 -right-40 -z-10 flower opacity-50 lg:opacity-100" />
                 <div className='flex flex-1 items-center gap-3 flex-col'>
                     <p className='flex flex-col gap-2 text-2xl sm:text-3xl uppercases text-center mt-2 sm:mt-0 text-black/70'>
