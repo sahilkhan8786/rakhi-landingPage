@@ -7,7 +7,7 @@ import image2 from '@/assets/2.png'
 import Button from './Button'
 export default function Hero() {
     return (
-        <div className=' bg-white/25 p-4 backdrop:blur-lg rounded-xl relative h-[700px] lg:h-[600px] mt-6 sm:mt-10   md:overflow-hidden overflow-y-scroll '>
+        <div className=' bg-white/25 p-4 backdrop:blur-lg rounded-xl relative h-[700px] lg:h-[600px] mt-6 sm:mt-10   md:overflow-hidden overflow-y-scroll  overflow-x-hidden'>
             <h1 className='text-3xl uppercase font-semibold text-center  items-center w-full my-4 text-pink-700 cursor-pointer  sm:text-7xl sm:mt-8 flex flex-col'>
                 <span>
                     Happy
